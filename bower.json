@@ -1,0 +1,28 @@
+{
+  "name": "comp308-express_portfolio-dkc",
+  "description": "Assignment 1 - Express Portfolio - via Express Generator for MVC (vertical site structure)",
+  "main": "server.js",
+  "authors": [
+    "Daniel Kerr-Cresswell"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Heroku",
+    "EJS"
+  ],
+  "homepage": "https://github.com/pudding4ever/comp308assignment1and2",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

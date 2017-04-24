@@ -1,0 +1,146 @@
+/* Custom CSS goes here */
+.body {
+  padding-bottom: 70px;
+  background-color: #666aa6;
+  color: navajowhite;
+  }
+ .panel-default{
+  background-color: navajowhite;
+  color: #666aa6;
+           border: 5px solid navajowhite;
+        border-radius: 10px;
+  }
+  .panel-title{
+        color: #666aa6;;
+  }
+  .jumbotron{
+        background-color: navajowhite;
+         color: #666aa6;
+         border: 5px solid white;
+        border-radius: 10px;
+  }
+  legend{
+        color: #0107f9;
+  }
+  #contact_form.well.form-horizontal{
+        background-color: navajowhite;
+         color: #666aa6;
+         border: 5px solid navajowhite;
+        border-radius: 10px;
+  }
+  a#register{
+  color: white;
+
+  }
+  table.table.table-bordered.table-striped.table-hover{
+      background-color: navajowhite;
+         color: #666aa6;
+        border: 5px solid navajowhite;
+        border-radius: 10px;
+  }
+
+/*nav bar css*/
+.navbar-default {
+  background-color: #666aa6;
+  border-color: #0107f9;
+}
+.navbar-default .navbar-brand {
+  color: #010506;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f19107;
+}
+.navbar-default .navbar-text {
+  color: #010506;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #010506;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f19107;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f19107;
+  background-color: #0107f9;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f19107;
+  background-color: #0107f9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #0107f9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0107f9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #010506;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #010506;
+}
+.navbar-default .navbar-link {
+  color: #010506;
+}
+.navbar-default .navbar-link:hover {
+  color: #f19107;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #010506;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f19107;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f19107;
+    background-color: #0107f9;
+  }
+}
+
+div.gallery {
+    padding-bottom: 70px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+input[type=text] {
+    border: 1px solid navajowhite;
+    border-radius: 100px;
+}
+input[type=email] {
+    border: 1px solid navajowhite;
+    border-radius: 100px;
+}
+input[type=password] {
+    border: 1px solid navajowhite;
+    border-radius: 100px;
+}

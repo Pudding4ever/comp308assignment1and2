@@ -1,0 +1,32 @@
+<% include ../partials/header.ejs %>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <h1><%= title %></h1>
+            <form class="form" method="post">
+              <div class="form-group">
+                <label for="NameTextField">Name</label>
+                <input type="text" class="form-control" id="NameTextField"
+                placeholder="Daniel Kerr-Cresswell" name="name" value="<%= games.name %>" required>
+              </div>
+              <div class="form-group">
+                <label for="phoneTextField">Phone</label>
+                <input type="text" class="form-control" id="phoneTextField"
+                placeholder="(1-)###-###-####" name="phone" value="<%= games.phone %>"  required>
+              </div>
+              <div class="form-group">
+                <label for="emailTextField">Email</label>
+                <input type="text" class="form-control" id="emailTextField"
+                placeholder="example@hotmail.com" name="email" value="<%= games.email %>"  required>
+              </div>
+
+              <button type="submit" id="Add"class="btn btn-primary"><i class="fa fa-check-square-o"></i> Submit</button>
+              <a href="/games" class="btn btn-warning"><i class="fa fa-undo"></i> Cancel</a>
+            </form>
+        </div>
+      </div>
+    </div>
+
+<% include ../partials/footer.ejs %>

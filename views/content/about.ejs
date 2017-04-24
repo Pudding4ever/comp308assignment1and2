@@ -1,0 +1,85 @@
+<% include ../partials/header.ejs %>
+   <!--div.container.>div.row>div.col-md-offset-3.col-md-6 (then press 'Tab' at the end of the line-->
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-offset-0 col-md-14">
+      <center>   
+        <h1><%= title %></h1>
+        <p>Everything about me on a need-to-know basis</p>
+        </center>
+        <center>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
+                aria-controls="collapseOne"> Daniel Kerr-Cresswell</a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <h4>Personal</h4>
+              Age: 26 years old<br> 
+              Location: Toronto, ON, Canada<br> 
+              Ethnicity: Irish<br>
+              Occupation: Game Developer<br> 
+              <h4>Programming Languages:</h4> C++, C, C#, Java, HTML5, XML, SQL<br>
+              <h4>IDEs/Engines Used:</h4> Visual Studio Ultimate 2013, Visual Studio Code, Eclipse, Android Studio, Unity Engine
+              <h4>Cloud services:</h4> Microsoft Azure, Heroku, Google Cloud <br>              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                Education
+                </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+            <h4>College Program:</h4>
+            Software Engineering Technology - Interactive Gaming	
+            <br>Centennial College - Scarborough, Ontario, Canada (2014-present)		
+            <br>Expected Date of Graduation: Sept 2017
+            <br>Expected Certification: Advanced Diploma			
+            <br><a href="http://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-interactive-gaming/#panelTwo">
+            <h2>Program Course Details</h2></a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                Leisure Activites
+                </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              <h2>Video Games</h2>
+              <p>
+If you'd like to know my taste in videogames, here's a <a href="http://steamcommunity.com/id/pudding4ever/games/?tab=all"><u>hardy list</u></a>
+                <hr>
+                <h2>Other Activities</h2> 
+                <li>Biking</li>
+                <li>Writing</li>
+                <li>Coding</li>
+                <li>Reading</li>
+                <li>Music</li>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </center>
+      </div>
+    </div>
+  </div>
+ 
+<% include ../partials/footer.ejs %>

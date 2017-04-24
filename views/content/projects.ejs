@@ -1,0 +1,43 @@
+<% include ../partials/header.ejs %>
+   <!--div.container.>div.row>div.col-md-offset-3.col-md-6 (then press 'Tab' at the end of the line-->
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-offset-0 col-md-14">  
+              <center> 
+        <h1><%= title %></h1>
+</center>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                <center>Currently Working On</center>
+                </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+            <center>
+                <span class="gallery">
+  <a target="Survey App" href="https://creator.ionic.io/share/cad97bf7208d">
+    <img title="Click for a GUI Demonstration"src="../Assets/images/Ionic Survey App.PNG" alt="Fjords" width="373" height="715">
+  </a>
+  <div class="desc"><h2>Ionic Survey App</h2></div>
+</span>
+</center>
+                <li>Made via Ionic Creator App for Front-end/JavaScipt/NPM, Node and Bower Packages, used VSCode, structured under MVC</li>
+                <li>Used Firebase as Back-end</li>
+                <li>Used Passport/Connect-Flash and other Packages for Login Authentification</li>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+<% include ../partials/footer.ejs %>

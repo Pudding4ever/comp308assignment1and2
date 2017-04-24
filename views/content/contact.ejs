@@ -1,0 +1,74 @@
+<% include ../partials/header.ejs %>
+   <!--div.container.>div.row>div.col-md-offset-3.col-md-6 (then press 'Tab' at the end of the line-->
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">  
+            <center>    
+        <h1><%= title %></h1>
+              <center>   
+         <!-- Using Jumbotron (Bootstrap) -->
+        <div>
+          <div class= "jumbotron">
+                <center>   
+            <legend>My Contact Info</i></legend>
+            <li>Email: dkerrcresswell@gmail.com </li>
+            <li>Location: Toronto, Ontario, Canada</li>
+            <br>
+                  <center>   
+            </div>
+            </div>
+            <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+            <legend>Your Contact Info</i></legend>
+            <fieldset>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Name</label>  
+              <div class="col-md-7 inputGroupContainer">
+              <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input type="text" class="form-control" id="NameTextField"
+                placeholder="Daniel Kerr-Cresswell" name="name" value="<%= games.name %>" required>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+              <label class="col-md-3 control-label" >Phone</label> 
+                <div class="col-md-7 inputGroupContainer">
+                <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+              <input type="text" class="form-control" id="phoneTextField"
+                placeholder="(1-)###-###-####" name="phone" value="<%= games.phone %>"  required>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+              <div class="form-group">
+              <label class="col-md-3 control-label">E-Mail</label>  
+                <div class="col-md-7 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input type="text" class="form-control" id="emailTextField"
+                placeholder="example@hotmail.com" name="email" value="<%= games.email %>"  required>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+            <label class="col-md-5 control-label"></label>
+            <div class="col-md-4">
+            <button type="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+            </div>
+            </fieldset>
+            </form>
+            <br>
+            <br>
+            <br>
+      </div>
+    </div>
+  </div>
+
+<% include ../partials/footer.ejs %>
